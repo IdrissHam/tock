@@ -46,7 +46,7 @@ import { StepComponent } from './story/step.component';
 import { MediaDialogComponent } from './story/media/media-dialog.component';
 import { ThemeModule } from '../theme/theme.module';
 import {
-  NbAccordionModule,
+  NbAccordionModule, NbAutocompleteModule,
   NbBadgeModule,
   NbButtonModule,
   NbCardModule,
@@ -140,7 +140,8 @@ export class BotRoutingModule {}
         MatGridListModule,
         NbFormFieldModule,
         NbIconModule,
-        NbButtonModule
+        NbButtonModule,
+        NbAutocompleteModule
     ],
     declarations: [
         BotTabsComponent,
